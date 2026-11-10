@@ -1,0 +1,581 @@
+{
+  "projects": [
+    {
+      "number": 1,
+      "folder": "CarRentalSystem",
+      "title": "Car Rental",
+      "category": "Rentals & bookings",
+      "category_id": "rentals-bookings",
+      "modules": [
+        "Vehicles",
+        "Customers",
+        "Rentals"
+      ],
+      "files": 21
+    },
+    {
+      "number": 2,
+      "folder": "HotelReservationSystem",
+      "title": "Hotel Reservation",
+      "category": "Rentals & bookings",
+      "category_id": "rentals-bookings",
+      "modules": [
+        "Guests",
+        "Rooms",
+        "Reservations"
+      ],
+      "files": 24
+    },
+    {
+      "number": 3,
+      "folder": "MovieBookingSystem",
+      "title": "Movie Booking",
+      "category": "Rentals & bookings",
+      "category_id": "rentals-bookings",
+      "modules": [
+        "Movies",
+        "Customers",
+        "Bookings"
+      ],
+      "files": 20
+    },
+    {
+      "number": 4,
+      "folder": "EquipmentBorrowingSystem",
+      "title": "Equipment Borrowing",
+      "category": "Rentals & bookings",
+      "category_id": "rentals-bookings",
+      "modules": [
+        "Borrowers",
+        "Equipment",
+        "Borrowing"
+      ],
+      "files": 13
+    },
+    {
+      "number": 5,
+      "folder": "ClinicConsultationSystem",
+      "title": "Clinic Consultation",
+      "category": "Healthcare",
+      "category_id": "healthcare",
+      "modules": [
+        "Doctors",
+        "Patients",
+        "Consultations"
+      ],
+      "files": 23
+    },
+    {
+      "number": 6,
+      "folder": "DentalClinicSystem",
+      "title": "Dental Clinic",
+      "category": "Healthcare",
+      "category_id": "healthcare",
+      "modules": [
+        "Dentists",
+        "Patients",
+        "Appointments"
+      ],
+      "files": 13
+    },
+    {
+      "number": 7,
+      "folder": "VeterinarySystem",
+      "title": "Veterinary",
+      "category": "Healthcare",
+      "category_id": "healthcare",
+      "modules": [
+        "Veterinarians",
+        "Pets",
+        "Treatments"
+      ],
+      "files": 20
+    },
+    {
+      "number": 8,
+      "folder": "PetGroomingSystem",
+      "title": "Pet Grooming",
+      "category": "Healthcare",
+      "category_id": "healthcare",
+      "modules": [
+        "Petowners",
+        "Pets",
+        "Grooming Services",
+        "Reservations"
+      ],
+      "files": 14
+    },
+    {
+      "number": 9,
+      "folder": "AppointmentSystem",
+      "title": "Appointment",
+      "category": "Healthcare",
+      "category_id": "healthcare",
+      "modules": [
+        "Clients",
+        "Services",
+        "Appointments"
+      ],
+      "files": 21
+    },
+    {
+      "number": 10,
+      "folder": "RestaurantOrderingSystem",
+      "title": "Restaurant Ordering",
+      "category": "Retail & food",
+      "category_id": "retail-food",
+      "modules": [
+        "Menu",
+        "Customers",
+        "Orders"
+      ],
+      "files": 19
+    },
+    {
+      "number": 11,
+      "folder": "CoffeeShopSystem",
+      "title": "Coffee Shop",
+      "category": "Retail & food",
+      "category_id": "retail-food",
+      "modules": [
+        "Menu Items",
+        "Customers",
+        "Orders"
+      ],
+      "files": 20
+    },
+    {
+      "number": 12,
+      "folder": "PharmacySystem",
+      "title": "Pharmacy",
+      "category": "Retail & food",
+      "category_id": "retail-food",
+      "modules": [
+        "Medicines",
+        "Customers",
+        "Purchase"
+      ],
+      "files": 11
+    },
+    {
+      "number": 13,
+      "folder": "SalesOrderSystem",
+      "title": "Sales Order",
+      "category": "Retail & food",
+      "category_id": "retail-food",
+      "modules": [
+        "Products",
+        "Customers",
+        "Orders"
+      ],
+      "files": 12
+    },
+    {
+      "number": 14,
+      "folder": "BookSystem",
+      "title": "Book",
+      "category": "Retail & food",
+      "category_id": "retail-food",
+      "modules": [
+        "Books"
+      ],
+      "files": 9
+    },
+    {
+      "number": 15,
+      "folder": "InventorySystem",
+      "title": "Inventory",
+      "category": "Retail & food",
+      "category_id": "retail-food",
+      "modules": [
+        "Suppliers",
+        "Products",
+        "Inventory"
+      ],
+      "files": 12
+    },
+    {
+      "number": 16,
+      "folder": "LaundrySystem",
+      "title": "Laundry",
+      "category": "Services & repair",
+      "category_id": "services-repair",
+      "modules": [
+        "Services",
+        "Customers",
+        "Laundry Orders"
+      ],
+      "files": 20
+    },
+    {
+      "number": 17,
+      "folder": "RepairServiceSystem",
+      "title": "Repair Service",
+      "category": "Services & repair",
+      "category_id": "services-repair",
+      "modules": [
+        "Customers",
+        "Technicians",
+        "Devices",
+        "Repair Transactions"
+      ],
+      "files": 14
+    },
+    {
+      "number": 18,
+      "folder": "GymMembershipSystem",
+      "title": "Gym Membership",
+      "category": "Services & repair",
+      "category_id": "services-repair",
+      "modules": [
+        "Members",
+        "Packages",
+        "Memberships"
+      ],
+      "files": 23
+    },
+    {
+      "number": 19,
+      "folder": "EventRegistrationSystem",
+      "title": "Event Registration",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Events",
+        "Participants",
+        "Registration"
+      ],
+      "files": 27
+    },
+    {
+      "number": 20,
+      "folder": "IctCongress",
+      "title": "ICT Congress",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Registration"
+      ],
+      "files": 13
+    },
+    {
+      "number": 21,
+      "folder": "StudentEnrollmentSystem",
+      "title": "Student Enrollment",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Students",
+        "Subjects",
+        "Enrollment"
+      ],
+      "files": 24
+    },
+    {
+      "number": 22,
+      "folder": "StudentScholarshipSystem",
+      "title": "Student Scholarship",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Students",
+        "Scholarships",
+        "Applications"
+      ],
+      "files": 23
+    },
+    {
+      "number": 23,
+      "folder": "StudentRecordsSystem",
+      "title": "Student Records",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Students",
+        "Teacher"
+      ],
+      "files": 10
+    },
+    {
+      "number": 24,
+      "folder": "LibraryManagementSystem",
+      "title": "Library Management",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Books",
+        "Borrowers",
+        "Borrow"
+      ],
+      "files": 25
+    },
+    {
+      "number": 25,
+      "folder": "PayrollSystem",
+      "title": "Payroll",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Positions",
+        "Employees",
+        "Payroll"
+      ],
+      "files": 23
+    },
+    {
+      "number": 26,
+      "folder": "UserRoleSystem",
+      "title": "User Role",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Roles",
+        "Users",
+        "Assignments"
+      ],
+      "files": 22
+    },
+    {
+      "number": 27,
+      "folder": "UcIntramuralsSystem",
+      "title": "UC Intramurals",
+      "category": "Campus & organizations",
+      "category_id": "campus-organizations",
+      "modules": [
+        "Registration",
+        "Department",
+        "Tournament Manager",
+        "Event",
+        "Coach",
+        "Dean",
+        "Athletes Profile"
+      ],
+      "files": 11
+    },
+    {
+      "number": 28,
+      "folder": "BarangayClearanceSystem",
+      "title": "Barangay Clearance",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Residents",
+        "Clearance Types",
+        "Clearances"
+      ],
+      "files": 21
+    },
+    {
+      "number": 29,
+      "folder": "WaterBillingSystem",
+      "title": "Water Billing",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Consumers",
+        "Rate Plans",
+        "Water Bills"
+      ],
+      "files": 21
+    },
+    {
+      "number": 30,
+      "folder": "ElectricBillingSystem",
+      "title": "Electric Billing",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Accounts",
+        "Tariff Classes",
+        "Electric Bills"
+      ],
+      "files": 21
+    },
+    {
+      "number": 31,
+      "folder": "HospitalAdmissionSystem",
+      "title": "Hospital Admission",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Patients",
+        "Wards",
+        "Admissions"
+      ],
+      "files": 21
+    },
+    {
+      "number": 32,
+      "folder": "TuitionPaymentSystem",
+      "title": "Tuition Payment",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Students",
+        "Fee Categories",
+        "Tuition Payments"
+      ],
+      "files": 21
+    },
+    {
+      "number": 33,
+      "folder": "ApartmentRentalSystem",
+      "title": "Apartment Rental",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Tenants",
+        "Units",
+        "Leases"
+      ],
+      "files": 21
+    },
+    {
+      "number": 34,
+      "folder": "CarWashSystem",
+      "title": "Car Wash",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Customers",
+        "Wash Packages",
+        "Wash Orders"
+      ],
+      "files": 21
+    },
+    {
+      "number": 35,
+      "folder": "CourierDeliverySystem",
+      "title": "Courier Delivery",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Clients",
+        "Delivery Routes",
+        "Shipments"
+      ],
+      "files": 21
+    },
+    {
+      "number": 36,
+      "folder": "ParkingSystem",
+      "title": "Parking",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Vehicles",
+        "Parking Slots",
+        "Parking Tickets"
+      ],
+      "files": 21
+    },
+    {
+      "number": 37,
+      "folder": "BloodBankSystem",
+      "title": "Blood Bank",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Donors",
+        "Blood Types",
+        "Blood Donations"
+      ],
+      "files": 21
+    },
+    {
+      "number": 38,
+      "folder": "JobApplicationSystem",
+      "title": "Job Application",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Job Openings",
+        "Applicants",
+        "Job Applications"
+      ],
+      "files": 21
+    },
+    {
+      "number": 39,
+      "folder": "TricycleFranchiseSystem",
+      "title": "Tricycle Franchise",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Operators",
+        "Vehicles",
+        "Franchise Permits"
+      ],
+      "files": 21
+    },
+    {
+      "number": 40,
+      "folder": "AlumniTracerSystem",
+      "title": "Alumni Tracer",
+      "category": "Community & utilities",
+      "category_id": "community-utilities",
+      "modules": [
+        "Degree Programs",
+        "Alumni",
+        "Employment Records"
+      ],
+      "files": 21
+    },
+    {
+      "number": 41,
+      "folder": "UniversalTemplate",
+      "title": "Universal Template",
+      "category": "Builders & templates",
+      "category_id": "builders-templates",
+      "modules": [
+        "Items",
+        "Clients",
+        "Transactions"
+      ],
+      "files": 22
+    },
+    {
+      "number": 42,
+      "folder": "SystemMorpher",
+      "title": "System Builder",
+      "category": "Builders & templates",
+      "category_id": "builders-templates",
+      "modules": [
+        "Tables",
+        "Fields",
+        "Links",
+        "Monitoring"
+      ],
+      "files": 40
+    },
+    {
+      "number": 43,
+      "folder": "BasicCrudSystem",
+      "title": "Basic Records",
+      "category": "Record templates",
+      "category_id": "record-templates",
+      "modules": [
+        "Records",
+        "Students",
+        "More Items"
+      ],
+      "files": 14
+    },
+    {
+      "number": 44,
+      "folder": "CompleteCrudSystem",
+      "title": "Record Manager",
+      "category": "Record templates",
+      "category_id": "record-templates",
+      "modules": [
+        "Records"
+      ],
+      "files": 16
+    }
+  ],
+  "download": {
+    "file": "downloads/deskset-systems.zip",
+    "bytes": 1637233,
+    "sha256": "2b8681fc1038de893d88586d21d7f6867e8dbcfd9d20a0b1a20c5d86d3e68000"
+  }
+}

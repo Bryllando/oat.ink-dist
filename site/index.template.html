@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A collection of PHP and MySQL systems for local use. Browse the systems, download the complete collection, and get started with XAMPP.">
+  <meta name="theme-color" content="#fafaf8">
+  <title>Deskset &mdash; Local systems, in one place</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/oat.min.css">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" id="sidebar" aria-label="Site navigation">
+    <a class="brand" href="#overview" aria-label="Deskset home"><span class="brand-mark" aria-hidden="true">d.</span>deskset<span class="brand-period">.</span></a>
+    <p class="brand-caption">The local systems collection</p>
+    <nav class="primary-nav" aria-label="Explore">
+      <a class="current" href="#overview">Overview</a>
+      <a href="#systems">All systems <span class="nav-count">44</span></a>
+      <a href="#setup">Getting started</a>
+      <a href="#download">Download</a>
+    </nav>
+    <p class="nav-heading">Browse by category</p>
+    <nav class="category-nav" aria-label="System categories">
+      <button type="button" class="category-button active" data-category="all" aria-pressed="true">All projects<span>44</span></button>
+      <!-- CATEGORIES -->
+    </nav>
+    <div class="sidebar-bottom">
+      <p>PHP + MySQL<br><span>Made to run locally.</span></p>
+      <button class="theme-button" id="theme-toggle" type="button" aria-pressed="false">Dark theme<span aria-hidden="true">&#8595;</span></button>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button id="menu-toggle" class="menu-toggle outline small" type="button" aria-controls="sidebar" aria-expanded="false">Menu</button>
+      <span class="breadcrumb">Collection <span aria-hidden="true">/</span> Overview</span>
+      <div class="topbar-actions"><a class="guide-link" href="#setup">Setup guide</a><a class="button small download-link" href="downloads/deskset-systems.zip" download="deskset-systems.zip">Download all <span aria-hidden="true">&#8595;</span></a></div>
+    </header>
+    <main id="main">
+      <section class="hero" id="overview" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A useful starting point</p>
+          <h1 id="hero-title">Local systems.<br>All in one place.</h1>
+          <p class="hero-description">A collection of PHP &amp; MySQL projects for keeping records, handling transactions, and viewing reports. Pick a system and make it your own.</p>
+          <div class="hero-actions"><a class="button download-link" href="downloads/deskset-systems.zip" download="deskset-systems.zip">Download collection <span aria-hidden="true">&#8595;</span></a><a class="text-link" href="#systems">Explore the systems <span aria-hidden="true">&#8599;</span></a></div>
+          <p class="download-note">ZIP &middot; <!-- ZIP_SIZE --> &middot; PHP, SQL &amp; local assets included</p>
+        </div>
+        <figure class="interface-preview">
+          <figcaption><span><i aria-hidden="true"></i>Inside the collection</span><span>Coffee shop</span></figcaption>
+          <div class="preview-window"><img src="assets/coffee-preview.png" alt="Coffee Shop system with customer search, a records table, and edit and delete controls" width="1365" height="900" loading="eager"></div>
+          <p>A familiar layout. Your records, your workflow.</p>
+        </figure>
+      </section>
+      <div class="collection-facts" aria-label="Collection contents"><div><strong>43</strong><span>ready-made systems</span></div><div><strong>01</strong><span>configurable system builder</span></div><div><strong>100%</strong><span>local CSS &amp; JavaScript</span></div></div>
+      <section class="catalog" id="systems" aria-labelledby="systems-title">
+        <div class="section-heading"><div><p class="eyebrow">The collection</p><h2 id="systems-title">Find your starting point.</h2></div><p>Expand a system to see what is included.</p></div>
+        <form class="catalog-tools" role="search" id="search-form">
+          <div class="search-field"><label class="visually-hidden" for="system-search">Search systems</label><input type="search" id="system-search" placeholder="Search systems or modules&hellip;" autocomplete="off"></div>
+          <label class="visually-hidden" for="category-select">Filter by category</label>
+          <select id="category-select"><option value="all">All categories</option><!-- CATEGORY_OPTIONS --></select>
+          <button type="reset" class="outline" id="clear-filters">Clear</button>
+        </form>
+        <div class="catalog-summary"><p id="result-count" role="status" aria-live="polite">Showing all 44 projects</p><span>PHP &middot; MySQL &middot; Offline assets</span></div>
+        <div class="system-list" id="system-list">
+          <!-- SYSTEMS -->
+        </div>
+        <div class="no-results" id="no-results" hidden><h3>No systems found.</h3><p>Try another name, module, or category.</p><button type="button" class="outline" id="reset-empty">Show all systems</button></div>
+        <p class="catalog-footnote">Every project listed here is included in the full download.</p>
+      </section>
+      <section class="setup-section" id="setup" aria-labelledby="setup-title">
+        <div class="section-heading"><div><p class="eyebrow">Getting started</p><h2 id="setup-title">Download. Set up. Open.</h2></div><p>You will need XAMPP on your computer.</p></div>
+        <ol class="setup-steps">
+          <li><span class="step-number" aria-hidden="true">01</span><div><h3>Extract the collection</h3><p>Download the ZIP and extract the <code>Deskset</code> folder somewhere easy to find.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">02</span><div><h3>Start Apache and MySQL</h3><p>Open the XAMPP Control Panel and start both services. Keep the default <code>C:\xampp\htdocs</code> web folder, or set your own.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">03</span><div><h3>Choose your system</h3><p>Run <code>deploy_exam.bat</code> from the extracted folder. Choose a system and a new folder name, then open the local address shown.</p></div></li>
+        </ol>
+        <details class="setup-note"><summary>Can I copy a system manually?</summary><div><p>Yes. Copy the whole system folder, including its assets, into <code>C:\xampp\htdocs</code>. Open <code>http://localhost/YourFolder/</code>. Its connector sets up an empty database on the first visit.</p><p>Renaming a folder does not rename its database. Use a different database name when you need separate data. Check each project's included guide for its fields and behavior.</p></div></details>
+        <details class="setup-note"><summary>What does the system builder do?</summary><div><p>Choose option <strong>42</strong> in the launcher to open SystemMorpher. Select a template and configure its tables, columns and links. It generates a new PHP project with forms, lists, search and monitoring.</p><p>Calculated amounts, stock rules and other business behavior need their own PHP logic. Linked master-record deletion can also delete dependent records.</p></div></details>
+      </section>
+      <section class="download-section" id="download" aria-labelledby="download-title">
+        <div><p class="eyebrow">One complete download</p><h2 id="download-title">Keep the whole collection.</h2><p>All 44 systems and tools, their SQL files, local UI assets, and the Windows launcher.</p><p class="download-note"><!-- ZIP_SIZE --> ZIP &middot; Ready to extract &middot; No account required</p></div>
+        <a class="button download-link" href="downloads/deskset-systems.zip" download="deskset-systems.zip">Download all 44 <span aria-hidden="true">&#8595;</span></a>
+      </section>
+      <p class="download-status" id="download-status" role="status" aria-live="polite"></p>
+      <footer class="site-footer"><span class="footer-brand">deskset.</span><p>A collection for local projects.</p><a href="licenses/Oat-MIT.txt">Third-party license</a></footer>
+    </main>
+  </div>
+</body>
+</html>
