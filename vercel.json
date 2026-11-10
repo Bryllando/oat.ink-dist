@@ -5,12 +5,28 @@
   "outputDirectory": "dist",
   "headers": [
     {
-      "source": "/downloads/deskset-systems.zip",
+      "source": "/downloads/oat.ink-dist.zip",
       "headers": [
-        { "key": "Content-Disposition", "value": "attachment; filename=\"deskset-systems.zip\"" },
-        { "key": "Content-Type", "value": "application/zip" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" }
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"oat.ink-dist.zip\""
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/zip"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/downloads/deskset-systems.zip",
+      "destination": "/downloads/oat.ink-dist.zip",
+      "permanent": true
     }
   ]
 }

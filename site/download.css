@@ -1,0 +1,6 @@
+/* The download link is the only addition to the upstream Oat layout. */
+nav[data-topnav] a.systems-download { color: var(--primary-foreground); }
+.systems-mobile-download { display: none; }
+@media (max-width: 768px) {
+  .systems-mobile-download { display: inline-flex; grid-column: 5 / -1; justify-self: end; align-self: center; }
+}

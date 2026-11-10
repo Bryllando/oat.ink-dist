@@ -1,0 +1,33 @@
+{
+  "archive": "oat.ink-dist.zip",
+  "projects": 44,
+  "runtime_files": 852,
+  "checks": {
+    "existing_php_syntax": 550,
+    "page_urls": 547,
+    "local_assets": 185,
+    "create_workflows": 28,
+    "transaction_workflows": 23,
+    "edit_delete_workflows": 14,
+    "regression_database_assertions": 60,
+    "additional_systems": 13,
+    "additional_record_workflows": 39,
+    "custom_presets": 18,
+    "custom_generated_php_syntax": 380,
+    "legacy_presets": 10,
+    "legacy_generated_php_syntax": 150
+  },
+  "passed": [
+    "first-run initialization",
+    "CRUD, search and reports",
+    "formula checks",
+    "foreign-key relationships and cascade deletion",
+    "required, numeric, date, email and choice validation",
+    "CSRF and invalid-input rejection where implemented",
+    "renamed deployment and offline assets",
+    "source hash preservation",
+    "download ZIP integrity and SHA-256"
+  ],
+  "environment": "Windows; XAMPP PHP/MariaDB; isolated temporary database; extracted final ZIP. AppointmentSystem preview PDO DSN used the isolated test port. Existing XAMPP databases were untouched.",
+  "limits": "Automated regression checks do not prove absence of all bugs. The systems require local PHP and MySQL; Vercel hosts the static download site."
+}

@@ -1,17 +1,18 @@
 {
-  "projects": 44,
   "desktop": "1440 x 1000",
   "mobile": "390 x 844",
   "passed": [
-    "search",
-    "category filters",
-    "empty results",
-    "reset",
-    "expand project",
+    "original SVG/logo exact match",
+    "responsive layout",
     "light/dark theme and storage",
-    "mobile navigation",
-    "no page overflow",
-    "all app assets local",
-    "actual ZIP download and checksum"
+    "desktop dropdown",
+    "mobile sidebar",
+    "demo tabs",
+    "editable code preview",
+    "modal dialog",
+    "documentation routes",
+    "actual ZIP download and SHA-256",
+    "local assets",
+    "no JavaScript exceptions"
   ]
 }
