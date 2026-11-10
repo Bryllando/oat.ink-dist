@@ -14,3 +14,5 @@ python tests/check_site.py
 ```
 
 The committed `dist` is ready to deploy. `site/upstream` retains the original website; `site/download.css` styles only the added mobile download link. Existing Oat credits remain in place.
+
+`tests/check_ict_congress.py` verifies quoted names/IDs, CRUD and attendance against an explicitly supplied disposable MySQL instance; its data-directory guard refuses a regular installation. See `preview/systems-checks.json` for the latest collection verification.
